@@ -2,19 +2,16 @@
 //  FirstProjectApp.swift
 //  FirstProject
 //
-//  Created by Devindi Jayawardena on 2022-11-12.
+//  Created by Todd Perkins on 11/21/20.
 //
 
 import SwiftUI
 
 @main
 struct FirstProjectApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

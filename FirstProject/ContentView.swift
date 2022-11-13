@@ -15,7 +15,7 @@ struct ContentView: View {
             if isTextShowing {
                 Text("Welcome to the First iOS App!")
                     .fontWeight(.medium)
-                    .foregroundColor(Color.purple)
+                    .foregroundColor(Color.pink)
                     .padding()
                     .font(.title)
             } else {

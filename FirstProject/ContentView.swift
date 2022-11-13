@@ -13,8 +13,8 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if isTextShowing {
-                Text("Welcome! First iOS App!")
-                    .fontWeight(.medium)
+                Text("Welcome! The First iOS App!")
+                    .fontWeight(.bold)
                     .foregroundColor(Color.pink)
                     .padding()
                     .font(.title)

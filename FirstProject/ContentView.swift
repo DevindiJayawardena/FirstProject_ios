@@ -24,7 +24,7 @@ struct ContentView: View {
                     .padding()
             }
             
-            Button("Click Me!") {
+            Button("Click To Proceed!") {
                 isTextShowing.toggle()
             }
         }

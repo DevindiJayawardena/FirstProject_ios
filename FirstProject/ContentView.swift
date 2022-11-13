@@ -14,6 +14,8 @@ struct ContentView: View {
         VStack {
             if isTextShowing {
                 Text("Welcome to the First iOS App!")
+                    .fontWeight(.medium)
+                    .foregroundColor(Color.purple)
                     .padding()
                     .font(.title)
             } else {
